@@ -1,0 +1,59 @@
+body {
+  background-image: url(./Imagens/Background.svg);
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Inter', sans-serif;
+}
+
+.logo {
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header p {
+  margin-right: 20px;
+}
+
+.caixa1 {
+  display: flex;
+}
+
+.caixa2 {
+  margin-left: 94px;
+  margin-top: 111px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+}
+
+.caixa2 h1 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 98px;
+}
+
+.get-started {
+  color: white;
+  background-color: #8c30f5;
+  height: 48px;
+  width: 154px;
+  border-radius: 6px;
+  font-size: 16px;
+  align-items: center;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+}
+
+.phone {
+  display: flex;
+  margin-top: 38px;
+}
