@@ -1,5 +1,7 @@
 body {
   background-image: url(./Imagens/Background.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 header {
@@ -22,12 +24,12 @@ header p {
   margin-right: 20px;
 }
 
-.caixa1 {
+.container1 {
   display: flex;
 }
 
 .caixa2 {
-  margin-left: 94px;
+  margin-left: 120px;
   margin-top: 111px;
   font-family: 'Inter', sans-serif;
   font-weight: 900;
@@ -56,4 +58,148 @@ header p {
 .phone {
   display: flex;
   margin-top: 38px;
+  margin-left: 100px;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+}
+
+.logos img {
+  margin-left: 40px;
+  margin-top: 200px;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+.tailor {
+  display: flex;
+  flex-direction: column;
+  font-family: 'inter', sans-serif;
+  justify-content: center;
+  align-items: center;
+  margin-top: 65px;
+}
+
+.tailor h1 {
+  font-weight: 800;
+  font-size: 48px;
+}
+
+.tailor p {
+  width: 540px;
+  height: 64px;
+}
+
+.features1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.robust {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', sans-serif;
+  align-items: center;
+}
+
+.robust p {
+  width: 350px;
+}
+
+.flexibility {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', sans-serif;
+  align-items: center;
+}
+
+.flexibility p {
+  width: 350px;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', sans-serif;
+  align-items: center;
+}
+
+.user p {
+  width: 350px;
+}
+
+.features2 {
+  display: flex;
+  margin-top: 50px;
+}
+
+.multiple {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', sans-serif;
+  align-items: center;
+}
+
+.multiple p {
+  width: 350px;
+}
+
+.better {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', sans-serif;
+  align-items: center;
+}
+
+.better p {
+  width: 350px;
+}
+
+.well {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', sans-serif;
+  align-items: center;
+}
+
+.well p {
+  width: 350px;
+}
+.achievements {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  font-family: 'inter', sans-serif;
+}
+
+.achievements1 {
+  margin-left: 100px;
+}
+
+.achievements3 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 150px;
+}
+
+.achievements4 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 150px;
+}
+
+#img1 {
+  margin-left: 100px;
+}
+
+#img2 {
+  margin-left: 100px;
 }
